@@ -60,8 +60,22 @@ body > article > a {
 }
 
 body > article > a:hover {
-    color: black;
-    padding: 10px 10px;
+    font-weight: bold;
+    padding: 10px 120px;
     
-
+    
 }
+
+body > footer img {
+    max-width: 75px;
+    align-items: center;
+    
+}
+
+body > footer > a > img:hover {
+
+    max-width: 78px;
+    transition-duration: .3s;
+    
+}
+    
