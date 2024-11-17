@@ -11,7 +11,7 @@ body {
 body > header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    padding: 10px;
+    padding: 10px 10px 5px 10px;
     padding-bottom: 18px;
 }
 
@@ -30,11 +30,22 @@ body > header > h2 {
 }
 
 body > header > p {
-    padding: 10px;
+    margin: auto;
+    padding: 5px 10px 10px 10px;
     color: rgb(255, 255, 255);
-    background-image: linear-gradient(red, purple);
     border-radius: 25px;
     
+}
+
+body > header img {
+    margin: 1px 1px 1px 1px;
+    max-width: 60px;
+    align-items: center;
+    padding: 15px;
+    
+}
+a > img:hover {
+
 }
 
 body > article{
@@ -66,16 +77,4 @@ body > article > a:hover {
     
 }
 
-body > footer img {
-    max-width: 75px;
-    align-items: center;
-    
-}
-
-body > footer > a > img:hover {
-
-    max-width: 78px;
-    transition-duration: .3s;
-    
-}
     
